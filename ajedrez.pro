@@ -9,24 +9,30 @@ CONFIG += c++14
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    Alfil.cpp \
-    Caballo.cpp \
-    Peon.cpp \
+    Bishop.cpp \
+    CBoton.cpp \
+    Coordenada.cpp \
+    Horse.cpp \
+    King.cpp \
+    Movimientos.cpp \
+    Pawn.cpp \
     Piece.cpp \
-    Reina.cpp \
-    Rey.cpp \
-    Torre.cpp \
+    Queen.cpp \
+    Rook.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
-    Alfil.h \
-    Caballo.h \
-    Peon.h \
+    Bishop.h \
+    CBoton.h \
+    Coordenada.h \
+    Horse.h \
+    King.h \
+    Movimientos.h \
+    Pawn.h \
     Piece.h \
-    Reina.h \
-    Rey.h \
-    Torre.h \
+    Queen.h \
+    Rook.h \
     mainwindow.h
 
 FORMS += \

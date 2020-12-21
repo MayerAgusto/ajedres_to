@@ -1,5 +1,4 @@
 #include "mainwindow.h"
-#include "Piece.h"
 #include <memory>
 
 #include <QApplication>
